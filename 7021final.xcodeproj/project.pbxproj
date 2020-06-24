@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,23 @@
 		497BCCF924A38B1800450314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497BCCF824A38B1800450314 /* Assets.xcassets */; };
 		497BCCFC24A38B1800450314 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 497BCCFB24A38B1800450314 /* Preview Assets.xcassets */; };
 		497BCCFF24A38B1800450314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 497BCCFD24A38B1800450314 /* LaunchScreen.storyboard */; };
+		497BCD0724A38EB000450314 /* safariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497BCD0624A38EB000450314 /* safariView.swift */; };
+		497BCD0924A3908100450314 /* leader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497BCD0824A3908100450314 /* leader.swift */; };
+		497BCD0B24A3909500450314 /* winilist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497BCD0A24A3909500450314 /* winilist.swift */; };
+		497BCD0D24A390A700450314 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497BCD0C24A390A700450314 /* AppView.swift */; };
+		497BCD0F24A390BB00450314 /* leaderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497BCD0E24A390BB00450314 /* leaderDetail.swift */; };
+		497BCD1124A390CD00450314 /* winiRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497BCD1024A390CD00450314 /* winiRow.swift */; };
+		497BCD1324A390DC00450314 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497BCD1224A390DC00450314 /* Data.swift */; };
+		497BCD3924A3A8C100450314 /* ball.json in Resources */ = {isa = PBXBuildFile; fileRef = 497BCD3824A3A8C100450314 /* ball.json */; };
+		497BCD3D24A3AD2200450314 /* LottieLogo1.json in Resources */ = {isa = PBXBuildFile; fileRef = 497BCD3C24A3AD2200450314 /* LottieLogo1.json */; };
+		497BCD3F24A3AE1800450314 /* view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497BCD3E24A3AE1800450314 /* view.swift */; };
+		497BCD4124A3AF5000450314 /* TestAnimations in Resources */ = {isa = PBXBuildFile; fileRef = 497BCD4024A3AF5000450314 /* TestAnimations */; };
+		6541A332EDFEBC533EE7F815 /* Pods_7021final.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAF59058CFA8839CAC553911 /* Pods_7021final.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D45880FF9B651BCD9680C3B /* Pods-7021final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-7021final.debug.xcconfig"; path = "Target Support Files/Pods-7021final/Pods-7021final.debug.xcconfig"; sourceTree = "<group>"; };
+		14FC5167E0D7CBFD04D643B7 /* Pods-7021final.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-7021final.release.xcconfig"; path = "Target Support Files/Pods-7021final/Pods-7021final.release.xcconfig"; sourceTree = "<group>"; };
 		497BCCEF24A38B1300450314 /* 7021final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 7021final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		497BCCF224A38B1300450314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		497BCCF424A38B1300450314 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +38,18 @@
 		497BCCFB24A38B1800450314 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		497BCCFE24A38B1800450314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		497BCD0024A38B1800450314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		497BCD0624A38EB000450314 /* safariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = safariView.swift; sourceTree = "<group>"; };
+		497BCD0824A3908100450314 /* leader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leader.swift; sourceTree = "<group>"; };
+		497BCD0A24A3909500450314 /* winilist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = winilist.swift; sourceTree = "<group>"; };
+		497BCD0C24A390A700450314 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		497BCD0E24A390BB00450314 /* leaderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leaderDetail.swift; sourceTree = "<group>"; };
+		497BCD1024A390CD00450314 /* winiRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = winiRow.swift; sourceTree = "<group>"; };
+		497BCD1224A390DC00450314 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		497BCD3824A3A8C100450314 /* ball.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ball.json; sourceTree = "<group>"; };
+		497BCD3C24A3AD2200450314 /* LottieLogo1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = LottieLogo1.json; sourceTree = "<group>"; };
+		497BCD3E24A3AE1800450314 /* view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view.swift; sourceTree = "<group>"; };
+		497BCD4024A3AF5000450314 /* TestAnimations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = TestAnimations; sourceTree = "<group>"; };
+		EAF59058CFA8839CAC553911 /* Pods_7021final.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_7021final.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6541A332EDFEBC533EE7F815 /* Pods_7021final.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BA8AE299306D788330A0CE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0D45880FF9B651BCD9680C3B /* Pods-7021final.debug.xcconfig */,
+				14FC5167E0D7CBFD04D643B7 /* Pods-7021final.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3370D77BEB03D8180C46E7D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EAF59058CFA8839CAC553911 /* Pods_7021final.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		497BCCE624A38B1300450314 = {
 			isa = PBXGroup;
 			children = (
 				497BCCF124A38B1300450314 /* 7021final */,
 				497BCCF024A38B1300450314 /* Products */,
+				0BA8AE299306D788330A0CE8 /* Pods */,
+				3370D77BEB03D8180C46E7D4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +102,21 @@
 		497BCCF124A38B1300450314 /* 7021final */ = {
 			isa = PBXGroup;
 			children = (
+				497BCD4024A3AF5000450314 /* TestAnimations */,
+				497BCD3824A3A8C100450314 /* ball.json */,
+				497BCD3C24A3AD2200450314 /* LottieLogo1.json */,
+				497BCD0824A3908100450314 /* leader.swift */,
 				497BCCF224A38B1300450314 /* AppDelegate.swift */,
 				497BCCF424A38B1300450314 /* SceneDelegate.swift */,
+				497BCD0A24A3909500450314 /* winilist.swift */,
+				497BCD0624A38EB000450314 /* safariView.swift */,
+				497BCD3E24A3AE1800450314 /* view.swift */,
+				497BCD0C24A390A700450314 /* AppView.swift */,
 				497BCCF624A38B1300450314 /* ContentView.swift */,
+				497BCD0E24A390BB00450314 /* leaderDetail.swift */,
+				497BCD1024A390CD00450314 /* winiRow.swift */,
 				497BCCF824A38B1800450314 /* Assets.xcassets */,
+				497BCD1224A390DC00450314 /* Data.swift */,
 				497BCCFD24A38B1800450314 /* LaunchScreen.storyboard */,
 				497BCD0024A38B1800450314 /* Info.plist */,
 				497BCCFA24A38B1800450314 /* Preview Content */,
@@ -82,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 497BCD0324A38B1800450314 /* Build configuration list for PBXNativeTarget "7021final" */;
 			buildPhases = (
+				3AD2C4BA2B8D90A9A6A7031D /* [CP] Check Pods Manifest.lock */,
 				497BCCEB24A38B1300450314 /* Sources */,
 				497BCCEC24A38B1300450314 /* Frameworks */,
 				497BCCED24A38B1300450314 /* Resources */,
+				80A10EFF27E410C10ED3490C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +192,58 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				497BCD3924A3A8C100450314 /* ball.json in Resources */,
 				497BCCFF24A38B1800450314 /* LaunchScreen.storyboard in Resources */,
 				497BCCFC24A38B1800450314 /* Preview Assets.xcassets in Resources */,
+				497BCD4124A3AF5000450314 /* TestAnimations in Resources */,
+				497BCD3D24A3AD2200450314 /* LottieLogo1.json in Resources */,
 				497BCCF924A38B1800450314 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3AD2C4BA2B8D90A9A6A7031D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-7021final-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80A10EFF27E410C10ED3490C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-7021final/Pods-7021final-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-7021final/Pods-7021final-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-7021final/Pods-7021final-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		497BCCEB24A38B1300450314 /* Sources */ = {
@@ -147,6 +251,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				497BCCF324A38B1300450314 /* AppDelegate.swift in Sources */,
+				497BCD1324A390DC00450314 /* Data.swift in Sources */,
+				497BCD0924A3908100450314 /* leader.swift in Sources */,
+				497BCD0B24A3909500450314 /* winilist.swift in Sources */,
+				497BCD3F24A3AE1800450314 /* view.swift in Sources */,
+				497BCD0D24A390A700450314 /* AppView.swift in Sources */,
+				497BCD0724A38EB000450314 /* safariView.swift in Sources */,
+				497BCD1124A390CD00450314 /* winiRow.swift in Sources */,
+				497BCD0F24A390BB00450314 /* leaderDetail.swift in Sources */,
 				497BCCF524A38B1300450314 /* SceneDelegate.swift in Sources */,
 				497BCCF724A38B1300450314 /* ContentView.swift in Sources */,
 			);
@@ -282,6 +394,7 @@
 		};
 		497BCD0424A38B1800450314 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D45880FF9B651BCD9680C3B /* Pods-7021final.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -301,6 +414,7 @@
 		};
 		497BCD0524A38B1800450314 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14FC5167E0D7CBFD04D643B7 /* Pods-7021final.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
